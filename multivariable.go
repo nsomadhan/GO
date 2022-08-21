@@ -29,4 +29,20 @@ func main() {
  fmt.Println(n)
 
 
+
+//Camel Case Variable
+var myVariableName = "My name"
+fmt.Println(myVariableName)
+fmt.Printf("T", myVariableName)
+
+// Pascal Case Variable
+MyVaribaleName := "My name"
+fmt.Println(MyVaribaleName)
+fmt.Printf("T", MyVaribaleName)
+
+//Snake Case
+var my_variable_name string = "My name"
+fmt.Println(my_variable_name)
+fmt.Printf("T", my_variable_name)
+
 }; 
